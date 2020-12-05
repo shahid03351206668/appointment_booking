@@ -1,0 +1,30 @@
+{
+ "creation": "2020-11-26 02:36:41.555169",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "clinic"
+ ],
+ "fields": [
+  {
+   "fieldname": "clinic",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Clinic",
+   "options": "Clinic",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-11-26 02:36:41.555169",
+ "modified_by": "Administrator",
+ "module": "Appointment Booking",
+ "name": "Clinic List Filters Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

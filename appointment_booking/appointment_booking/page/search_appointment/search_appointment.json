@@ -1,0 +1,26 @@
+{
+ "content": null,
+ "creation": "2020-11-18 03:27:44.410959",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2020-11-18 07:14:41.860375",
+ "modified_by": "Administrator",
+ "module": "Appointment Booking",
+ "name": "search-appointment",
+ "owner": "Administrator",
+ "page_name": "Search Appointment",
+ "roles": [
+  {
+   "role": "InsurCoUsers"
+  },
+  {
+   "role": "BookingManagers"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Search for Open Book Appointment"
+}

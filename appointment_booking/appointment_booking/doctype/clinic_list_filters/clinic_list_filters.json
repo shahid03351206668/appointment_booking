@@ -1,0 +1,50 @@
+{
+ "autoname": "CLF-.#####",
+ "creation": "2020-11-26 02:37:23.733427",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "filter_name",
+  "clinics"
+ ],
+ "fields": [
+  {
+   "fieldname": "filter_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Filter Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "clinics",
+   "fieldtype": "Table",
+   "label": "Clinic List Filters Detail",
+   "options": "Clinic List Filters Detail",
+   "reqd": 1
+  }
+ ],
+ "modified": "2020-11-26 02:42:13.078618",
+ "modified_by": "Administrator",
+ "module": "Appointment Booking",
+ "name": "Clinic List Filters",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "filter_name",
+ "track_changes": 1
+}

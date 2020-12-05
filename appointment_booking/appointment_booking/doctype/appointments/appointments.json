@@ -1,0 +1,370 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2020-11-13 21:25:22.335371",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "appointment_information_section",
+  "clinic",
+  "status",
+  "the_date_and_time_of_publication_of_the_record",
+  "code_from_the_external_system",
+  "column_break_3",
+  "visit_date",
+  "visit_time",
+  "duration_of_the_visit",
+  "backup_version",
+  "creation_and_modifications_section",
+  "user_created",
+  "user_updated",
+  "column_break_14",
+  "datetime_created",
+  "datetime_updated",
+  "section_break_7",
+  "doctor_first_name",
+  "doctor_middle_name",
+  "doctor_last_name",
+  "doctor_full_name",
+  "column_break_12",
+  "specialty",
+  "note_to_a_patient",
+  "patient_details_section",
+  "patient_first_name",
+  "patient_middle_name",
+  "patient_last_name",
+  "patient_full_name",
+  "phone",
+  "email",
+  "column_break_21",
+  "date_of_birth",
+  "insurance_company",
+  "policy_number",
+  "policy_validity_date",
+  "booking_manager_details_section",
+  "user_name_of_the_booking_manager",
+  "full_name_of_the_booking_manager",
+  "booking_modification_manager",
+  "date_and_time_of_booking",
+  "date_and_time_of_the_last_booking_modification",
+  "column_break_33",
+  "the_reasons_of_the_visit",
+  "note_to_booking",
+  "agreement_on_the_processing_of_personal_data",
+  "date_and_time_of_the_personal_data_processing_agreement",
+  "the_user_agreement",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "clinic",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Clinic",
+   "options": "Clinic",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "visit_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Visit Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "visit_time",
+   "fieldtype": "Time",
+   "label": "Visit Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "duration_of_the_visit",
+   "fieldtype": "Float",
+   "label": "Duration of the Visit"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break",
+   "label": "Doctor's Details"
+  },
+  {
+   "fieldname": "doctor_first_name",
+   "fieldtype": "Data",
+   "label": "Doctor First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "doctor_middle_name",
+   "fieldtype": "Data",
+   "label": "Doctor Middle Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "doctor_last_name",
+   "fieldtype": "Data",
+   "label": "Doctor Last Name",
+   "reqd": 1
+  },
+  {
+   "default": "-",
+   "fieldname": "doctor_full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Doctor Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "specialty",
+   "fieldtype": "Data",
+   "label": "Doctor's Specialty",
+   "reqd": 1
+  },
+  {
+   "fieldname": "note_to_a_patient",
+   "fieldtype": "Small Text",
+   "label": "Note to a Patient"
+  },
+  {
+   "fieldname": "patient_details_section",
+   "fieldtype": "Section Break",
+   "label": "Patient's Details"
+  },
+  {
+   "fieldname": "patient_first_name",
+   "fieldtype": "Data",
+   "label": "Patient First Name"
+  },
+  {
+   "fieldname": "patient_middle_name",
+   "fieldtype": "Data",
+   "label": "Patient Middle Name"
+  },
+  {
+   "fieldname": "patient_last_name",
+   "fieldtype": "Data",
+   "label": "Patient Last Name"
+  },
+  {
+   "fieldname": "patient_full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Patient Full Name",
+   "read_only": 1
+  },
+  {
+   "default": "-",
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Patient's Phone Number for communication"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "insurance_company",
+   "fieldtype": "Link",
+   "label": "Insurance Company",
+   "options": "Insurance Company",
+   "read_only": 1
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "Policy Number"
+  },
+  {
+   "fieldname": "policy_validity_date",
+   "fieldtype": "Date",
+   "label": "Policy Validity Date"
+  },
+  {
+   "default": "-",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Patient's Email Address for Communication"
+  },
+  {
+   "fieldname": "booking_manager_details_section",
+   "fieldtype": "Section Break",
+   "label": "Booking Manager's Details"
+  },
+  {
+   "default": "-",
+   "fieldname": "user_name_of_the_booking_manager",
+   "fieldtype": "Data",
+   "label": "User name of the booking Manager",
+   "read_only": 1
+  },
+  {
+   "default": "-",
+   "fieldname": "full_name_of_the_booking_manager",
+   "fieldtype": "Data",
+   "label": "Full name of the booking Manager",
+   "read_only": 1
+  },
+  {
+   "default": "-",
+   "fieldname": "booking_modification_manager",
+   "fieldtype": "Data",
+   "label": "Booking modification Manager",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date_and_time_of_booking",
+   "fieldtype": "Datetime",
+   "label": "Date and time of booking",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date_and_time_of_the_last_booking_modification",
+   "fieldtype": "Datetime",
+   "label": "Date and time of the last booking modification",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "the_reasons_of_the_visit",
+   "fieldtype": "Select",
+   "label": "The reasons of the visit ",
+   "options": "\nFirst Visit\nTreatment\nPrescription\nGetting Help"
+  },
+  {
+   "fieldname": "note_to_booking",
+   "fieldtype": "Data",
+   "label": "Note to Booking"
+  },
+  {
+   "default": "0",
+   "fieldname": "agreement_on_the_processing_of_personal_data",
+   "fieldtype": "Check",
+   "label": "Agreement on the processing of personal data"
+  },
+  {
+   "fieldname": "date_and_time_of_the_personal_data_processing_agreement",
+   "fieldtype": "Datetime",
+   "label": "Date and time of the personal data processing agreement",
+   "read_only": 1
+  },
+  {
+   "default": "-",
+   "fieldname": "the_user_agreement",
+   "fieldtype": "Data",
+   "label": "The user agreement",
+   "read_only": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "APP-",
+   "read_only": 1
+  },
+  {
+   "fieldname": "appointment_information_section",
+   "fieldtype": "Section Break",
+   "label": "Appointment Information"
+  },
+  {
+   "fieldname": "the_date_and_time_of_publication_of_the_record",
+   "fieldtype": "Datetime",
+   "label": "The date and time of publication of the record"
+  },
+  {
+   "default": "Available",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Booking status",
+   "options": "Hold\nAvailable\nBooked\nDeleted\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "code_from_the_external_system",
+   "fieldtype": "Data",
+   "label": "Code from the external system"
+  },
+  {
+   "default": "1",
+   "fieldname": "backup_version",
+   "fieldtype": "Int",
+   "label": "Backup version"
+  },
+  {
+   "fieldname": "creation_and_modifications_section",
+   "fieldtype": "Section Break",
+   "label": "Creation and Modifications"
+  },
+  {
+   "fieldname": "user_created",
+   "fieldtype": "Data",
+   "label": "User Created",
+   "read_only": 1
+  },
+  {
+   "fieldname": "datetime_created",
+   "fieldtype": "Datetime",
+   "label": "Datetime Created",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "user_updated",
+   "fieldtype": "Data",
+   "label": "User Updated",
+   "read_only": 1
+  },
+  {
+   "fieldname": "datetime_updated",
+   "fieldtype": "Datetime",
+   "label": "Datetime Updated",
+   "read_only": 1
+  }
+ ],
+ "modified": "2020-12-01 18:34:33.801567",
+ "modified_by": "Administrator",
+ "module": "Appointment Booking",
+ "name": "Appointments",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
